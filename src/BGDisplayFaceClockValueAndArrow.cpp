@@ -90,7 +90,7 @@ void BGDisplayFaceClockValueAndArrow::showTrendArrow(const GlucoseReading readin
 
 #pragma endregion Show arrow
 
-void BGDisplayFaceClock::showNoData() const {
+void BGDisplayFaceClockValueAndArrow::showNoData() const {
     DisplayManager.clearMatrix();
     showClock();
 
