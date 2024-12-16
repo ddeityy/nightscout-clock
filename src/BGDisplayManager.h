@@ -7,6 +7,7 @@
 #include "BGDisplayFaceSimple.h"
 #include "BGDisplayFaceBigText.h"
 #include "BGDisplayFaceValueAndDiff.h"
+#include "BGDisplayFaceClockValueAndArrow.h"
 #include "BGDisplayFaceClock.h"
 #include "BGSource.h"
 
