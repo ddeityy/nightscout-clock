@@ -9,14 +9,14 @@
 class SettingsManager_ {
   private:
     SettingsManager_() = default;
-    JsonDocument *readConfigJsonFile();
+    ArduinoJson::V721PB22::JsonDocument *readConfigJsonFile();
 
   public:
     static SettingsManager_ &getInstance();
     void setup();
     bool loadSettingsFromFile();
     bool saveSettingsToFile();
-    bool trySaveJsonAsSettings(JsonDocument doc);
+    bool trySaveJsonAsSettings(ArduinoJson::V721PB22::JsonDocument doc);
     void factoryReset();
 
     Settings settings;
