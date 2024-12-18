@@ -11,7 +11,7 @@ class BGDisplayFaceClockValueAndArrow : public BGDisplayFaceTextBase {
 
   private:
     void showClock() const;
-    void showTrendArrow(const GlucoseReading reading, int16_t x, int16_t y) const;
+    void showTrendVerticalLine(int x, BG_TREND trend) const;
 };
 
 #endif
